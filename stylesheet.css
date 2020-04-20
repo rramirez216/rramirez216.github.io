@@ -1,0 +1,72 @@
+body {
+  font-family: 'Baloo Tamma 2', cursive;
+  background: #000;
+  color: white;
+}
+
+.showcase {
+  width: 100%;
+  height: 100vh;
+  /*position: relative;*/
+  background-image: url(https://images.designtrends.com/wp-content/uploads/2016/02/28130351/Scary-Backgrounds.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1 {
+    border-bottom: 2px solid white;
+}
+
+li {
+    font-size: 1.3rem;
+    color: white;
+    
+}
+td {
+    
+    width: 100px;
+    height: 50px;
+}
+table {
+  width: 50%;
+  margin-top: 2rem;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.container {
+  max-width: 70%;
+  margin: auto;
+  overflow: hidden;
+  padding: 0 2rem;
+}
+
+a {
+    text-decoration: none;
+    color: red;
+    font-size: 1rem;
+}
+
+h2{
+    margin: 10px;
+    border-bottom: 2px solid white;
+}
+
+ol {
+    font-size: 2rem;
+    margin-top: 15px;
+}
+
+ul {
+list-style-type: none;
+}
+
+ul li {
+    margin-left: 0px;
+}
+
+.flexing {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
